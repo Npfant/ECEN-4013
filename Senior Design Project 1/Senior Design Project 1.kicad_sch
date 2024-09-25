@@ -1893,6 +1893,347 @@
 				)
 			)
 		)
+		(symbol "LM393NG:LM393NG"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.3674 14.2199 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LM393NG"
+				(at -4.8008 -22.7339 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LM393NG:DIP254P762X533-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "ON Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nComparator General Purpose CMOS, DTL, ECL, MOS, Open-Collector, TTL 8-PDIP\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "PDIP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LM393NG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "PDIP-8 ON Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_FARNELL" "1211133"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM393NG/Onsemi/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LM393NG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER" "On Semiconductors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_NEWARK" "67H6685"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LM393NG/Onsemi/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LM393NG_0_0"
+				(rectangle
+					(start -12.7 -17.78)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "IN_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "IN_A_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "IN_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "IN_B_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "OUT_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Timer:LM555xN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2264,7 +2605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080c9365-d3ba-491d-b8f9-3a8cdf0795f7")
-		(property "Reference" "U4"
+		(property "Reference" "Dual_D_Flip-Flops_2"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -2483,7 +2824,7 @@
 		(instances
 			(project ""
 				(path "/26f0e0d8-48b3-4b2f-ae33-e0e1c95a5120"
-					(reference "U4")
+					(reference "Dual_D_Flip-Flops_2")
 					(unit 1)
 				)
 			)
@@ -2561,7 +2902,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 116.84 66.04 0)
+		(at 105.41 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2570,7 +2911,7 @@
 		(fields_autoplaced yes)
 		(uuid "37f51f39-999e-4947-b446-de871e7c2d3b")
 		(property "Reference" "#PWR09"
-			(at 116.84 69.85 0)
+			(at 105.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2920,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 116.84 60.96 0)
+			(at 105.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 66.04 0)
+			(at 105.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 66.04 0)
+			(at 105.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 66.04 0)
+			(at 105.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +3042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c5b8469-9b0d-4007-bee4-cfe795c7b7cd")
-		(property "Reference" "U7"
+		(property "Reference" "AND_Gates"
 			(at 193.04 48.26 0)
 			(effects
 				(font
@@ -2920,7 +3261,7 @@
 		(instances
 			(project ""
 				(path "/26f0e0d8-48b3-4b2f-ae33-e0e1c95a5120"
-					(reference "U7")
+					(reference "AND_Gates")
 					(unit 1)
 				)
 			)
@@ -3066,7 +3407,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 104.14 73.66 90)
+		(at 92.71 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3075,7 +3416,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aaf9baf-badd-4f17-b99f-3c7e4a926678")
 		(property "Reference" "#PWR01"
-			(at 107.95 73.66 0)
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3425,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 100.33 73.6599 90)
+			(at 88.9 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 73.66 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 73.66 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 73.66 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914dbb78-4453-4eb6-a7bf-0ee4bfa4d3e7")
-		(property "Reference" "U3"
+		(property "Reference" "Dual_D_Flip-Flops"
 			(at 153.67 27.94 0)
 			(effects
 				(font
@@ -3424,6 +3765,223 @@
 		)
 		(pin "1"
 			(uuid "de51d749-16ff-4296-92d0-7b55d1f67321")
+		)
+		(instances
+			(project ""
+				(path "/26f0e0d8-48b3-4b2f-ae33-e0e1c95a5120"
+					(reference "Dual_D_Flip-Flops")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM393NG:LM393NG")
+		(at 105.41 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91cad7c8-2de8-4e3b-b9f5-33ae642f3960")
+		(property "Reference" "U3"
+			(at 105.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393NG"
+			(at 105.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LM393NG:DIP254P762X533-8"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ON Semiconductor"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nComparator General Purpose CMOS, DTL, ECL, MOS, Open-Collector, TTL 8-PDIP\n"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "PDIP-8"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM393NG"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "PDIP-8 ON Semiconductor"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1211133"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM393NG/Onsemi/view-part/?ref=snap"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM393NG"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "On Semiconductors"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "67H6685"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM393NG/Onsemi/view-part/?ref=eda"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b4cbce1-414e-4012-bcd3-49bebc3d8d51")
+		)
+		(pin "8"
+			(uuid "148bdbd5-36f7-42c5-8905-a45065bc187a")
+		)
+		(pin "5"
+			(uuid "5cf56ef6-880c-41f0-a47c-ca7a6aa40a06")
+		)
+		(pin "6"
+			(uuid "d4f60b9a-7b1d-44df-8d1f-37d87f77642b")
+		)
+		(pin "7"
+			(uuid "05f00dc9-bec2-4e70-89fa-e69222db0c01")
+		)
+		(pin "2"
+			(uuid "138c9707-fafd-4ded-82ee-8de100a95e5b")
+		)
+		(pin "4"
+			(uuid "4e381d24-b6f3-4475-a614-25e281208b9f")
+		)
+		(pin "3"
+			(uuid "ab63d648-0e5f-4365-810a-b305afbf87ba")
 		)
 		(instances
 			(project ""
@@ -4073,7 +4631,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC273")
-		(at 116.84 86.36 0)
+		(at 105.41 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4082,7 +4640,7 @@
 		(fields_autoplaced yes)
 		(uuid "de04cb13-ba8a-421c-93e5-7ed94d0cf2ac")
 		(property "Reference" "U2"
-			(at 119.0341 66.04 0)
+			(at 107.6041 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4649,7 @@
 			)
 		)
 		(property "Value" "74HC273"
-			(at 119.0341 68.58 0)
+			(at 107.6041 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4658,7 @@
 			)
 		)
 		(property "Footprint" "SN74HC273N:DIP254P762X508-20"
-			(at 116.84 86.36 0)
+			(at 105.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4667,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf"
-			(at 116.84 86.36 0)
+			(at 105.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4676,7 @@
 			)
 		)
 		(property "Description" "8-bit D Flip-Flop, reset"
-			(at 116.84 86.36 0)
+			(at 105.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
